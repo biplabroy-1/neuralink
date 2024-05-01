@@ -1,0 +1,30 @@
+._screenerView_brszw_10 ._section_brszw_10 {
+    gap: 3rem
+}
+
+._screenerView_brszw_10 ._section_brszw_10 ._questionListItem_brszw_13 {
+    gap: 1.5rem
+}
+
+._screenerView_brszw_10 ._nextContainer_brszw_16 {
+    place-items: end
+}
+
+._screenerView_brszw_10 ._nextContainer_brszw_16 ._nextArrow_brszw_19 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media screen and (max-width: 1399px) {
+    ._screenerView_brszw_10 ._section_brszw_10 {
+        gap: 2rem
+    }
+}
+
+@media screen and (max-width: 900px) {
+    ._screenerView_brszw_10 ._section_brszw_10 {
+        margin: 0;
+        gap: 1rem
+    }
+}

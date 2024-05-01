@@ -1,0 +1,146 @@
+._textInput_116lc_10 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+._textInput_116lc_10 label {
+    padding: 0 2.5rem;
+    font-weight: 500
+}
+
+._textInput_116lc_10 ._container_116lc_20 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 2rem 0 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #f5f5f5;
+    border: .1rem solid transparent;
+    place-content: center;
+    place-items: center;
+    font-size: 1.5rem
+}
+
+._textInput_116lc_10 ._container_116lc_20:focus-within {
+    border: .1rem solid black
+}
+
+._textInput_116lc_10 ._container_116lc_20 input,
+._textInput_116lc_10 ._container_116lc_20 textarea {
+    width: 100%;
+    margin: 0;
+    border: none;
+    font-family: UntitledSans;
+    padding: .65rem 1.5rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    height: 100%;
+    outline-width: 0;
+    font-size: 2rem
+}
+
+._textInput_116lc_10 ._container_116lc_20 input:focus {
+    outline: none
+}
+
+._textInput_116lc_10 ._container_116lc_20 input::-webkit-outer-spin-button,
+._textInput_116lc_10 ._container_116lc_20 input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+._textInput_116lc_10 ._container_116lc_20 input::-webkit-inner-spin-button {
+    display: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+._textInput_116lc_10 ._container_116lc_20 input[type=number] {
+    -moz-appearance: textfield
+}
+
+._textInput_116lc_10 ._container_116lc_20 textarea {
+    padding: 1.5rem;
+    min-height: 12rem;
+    max-width: 100%;
+    min-width: 100%;
+    resize: vertical
+}
+
+._textInput_116lc_10 ._container_116lc_20 textarea::-webkit-resizer {
+    display: none
+}
+
+._textInput_116lc_10 ._container_116lc_20 ._icon_116lc_71 {
+    min-width: 2rem;
+    height: 2rem;
+    width: 2rem;
+    top: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+._textInput_116lc_10 ._container_116lc_20 ._icon_116lc_71._clickable_116lc_79 svg {
+    pointer-events: all;
+    cursor: pointer
+}
+
+._textInput_116lc_10 ._container_116lc_20 svg {
+    height: 2rem;
+    width: 2rem;
+    min-width: 2rem;
+    stroke-width: .2rem;
+    stroke: #000;
+    -webkit-transition: stroke .2s;
+    transition: stroke .2s;
+    pointer-events: none
+}
+
+._textInput_116lc_10 ._errorUnder_116lc_92 {
+    color: #cb0000;
+    top: 100%;
+    left: 0;
+    font-size: 1.2rem;
+    line-height: .65lh;
+    padding: 0 2.5rem
+}
+
+._textInput_116lc_10._isInvalid_116lc_100 label,
+._textInput_116lc_10._invalid_116lc_100 label {
+    color: red
+}
+
+._textInput_116lc_10._isInvalid_116lc_100 ._container_116lc_20,
+._textInput_116lc_10._invalid_116lc_100 ._container_116lc_20 {
+    border: .1rem solid red
+}
+
+@media screen and (max-width: 900px) {
+    ._textInput_116lc_10 ._container_116lc_20 svg {
+        stroke-width: .05rem
+    }
+
+    ._textInput_116lc_10 ._container_116lc_20 input,
+    ._textInput_116lc_10 ._container_116lc_20 textarea {
+        font-size: 1.5rem
+    }
+
+    ._textInput_116lc_10 ._container_116lc_20 textarea {
+        min-height: 10rem
+    }
+}
